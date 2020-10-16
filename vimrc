@@ -27,4 +27,7 @@ set backspace=indent,eol,start
 autocmd Filetype php setlocal ts=4 sts=4 sw=4
 autocmd filetype go setlocal noexpandtab ts=4 sts=4 sw=4
 
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
 syntax on
