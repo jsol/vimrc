@@ -24,6 +24,7 @@ set incsearch
 set tabstop=2
 set shiftwidth=2
 set backspace=indent,eol,start
+set mouse-=a
 autocmd Filetype php setlocal ts=4 sts=4 sw=4
 autocmd filetype go setlocal noexpandtab ts=4 sts=4 sw=4
 
